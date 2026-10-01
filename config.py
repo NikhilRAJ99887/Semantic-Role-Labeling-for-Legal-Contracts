@@ -1,0 +1,10 @@
+MODEL_NAME = "bert-base-uncased"
+DATA_FILE = "data/legal_contract_ner_large_huggingface.csv"
+OUTPUT_DIR = "outputs/legal-bert-ner"
+MAX_LENGTH = 256
+LEARNING_RATE = 2e-5
+TRAIN_BATCH_SIZE = 8
+EVAL_BATCH_SIZE = 8
+NUM_EPOCHS = 5
+WEIGHT_DECAY = 0.01
+SEED = 42
